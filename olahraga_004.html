@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./bolaspecs.jpg"
+    <title></title>
+   <style>
+        /* Tambahkan gaya CSS sesuai kebutuhan Anda di sini */
+        h1 {
+            text-align: center;
+        font-family: Arial, sans-serif; /* Mengatur jenis font */
+        font-size: 28spx; /* Mengatur ukuran font */
+        font-weight: bold; /* Mengatur ketebalan font (bold) */
+        color: white; /* Mengatur warna teks */
+        text-transform: uppercase; /* Mengubah teks menjadi huruf besar */
+        letter-spacing: 2px; /* Mengatur jarak antar huruf */
+		background-image: url('rumputbola.jpg'); /* Menambahkan latar belakang gambar */
+        background-size: cover; /* Mengatur ukuran latar belakang agar mencakup seluruh elemen */
+        padding: 40px; /* Memberikan padding agar teks tidak terlalu dekat dengan tepi */
+        }
+
+        img {
+            width: 400px;
+            /* Tinggi gambar akan menyesuaikan agar gambar tidak terdistorsi */
+            height: auto;
+        }
+
+        /* Gaya CSS untuk div yang mengelilingi img dan h1 */
+        .header-content {
+            text-align: center; /* Mengatur konten div ke tengah */
+        }
+		  section {
+            background-image: url('bolasepak.jpg'); /* Menambahkan latar belakang gambar untuk elemen section */
+            background-size: cover; /* Mengatur ukuran latar belakang agar mencakup seluruh elemen */
+            padding: 25px; /* Memberikan padding untuk konten dalam section */
+            color: white; /* Mengatur warna teks dalam section */
+        }
+
+        /* Gaya CSS untuk div yang mengelilingi img dan h1 */
+        .header-content {
+            text-align: center; /* Mengatur konten div ke tengah */
+        }
+
+        footer {
+            background-image: url('rumputlapangan.jpg'); /* Menambahkan latar belakang gambar untuk elemen footer */
+            background-size: cover; /* Mengatur ukuran latar belakang agar mencakup seluruh elemen footer */
+            padding: 20px; /* Memberikan padding untuk konten dalam footer */
+            color: black; /* Mengatur warna teks dalam footer */
+        }
+
+        /* Gaya CSS untuk latar belakang h2 dan h3 */
+        aside h2, footer h3 {
+            background-color: #333; /* Menambahkan warna latar belakang untuk h2 dan h3 */
+            color: #fff; /* Mengatur warna teks h2 dan h3 */
+            padding: 10px; /* Memberikan padding untuk h2 dan h3 */
+        }
+		
+		/* CSS untuk garis tabel */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Menyusun elemen ke tengah */
+}
+
+li {
+    margin-right: 20px;
+    text-align: center; /* Mengatur teks-align ke center */
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ff6600;
+    color: #fff;
+    transform: translateX(5px); /* Geser ke kanan 5 piksel saat dihover */
+}
+
+/*teks table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+/* Tombol Kirim (Submit) */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6600;
+    transform: scale(1.05); /* Memperbesar tombol saat dihover */
+}
+
+/* Tombol Reset */
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="reset"]:hover {
+    background-color: #ff0000; /* Mengubah warna latar saat dihover */
+    transform: scale(1.05); /* Memperbesar tombol saat dihover */
+}
+
+    </style>
+</head>    
+<body>
+    <header>
+        <div class="header-content">
+            
+            <h1>Welcome Football Lovers</h1>
+			<nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="https://id.wikipedia.org/wiki/Sepak_bola">About</a></li>
+            <li><a href="https://www.goal.com/id/berita/agen-sepakbola-apa-yang-mereka-lakukan-berapa-gajinya-and-bagaimana-cara-menjadi-pehubung-pemain/bltdcbc435e20ce78d4">Services</a></li>
+            <li><a href="https://www.instagram.com/dhiksyhptr_/">Contact</a></li>
+        </ul>
+    </nav>
+        </div>
+    </header>
+	
+		
+    <section>
+        <h2>Berita Terbaru</h2>
+		<!-- Penggunaan elemen iframe -->
+    <iframe src="https://www.bolasport.com" width="1300" height="190" frameborder="0" scrolling="auto"></iframe>
+        <article>
+            <h3>Pertandingan Terakhir</h3>
+            <p>Indonesia Vs Turkmenistan: Garuda Muda Menang 2-0, Lolos ke Piala Asia U-23!</p>
+            <div class="container">
+    <img src="indonesia.jpeg" alt="Gambar Pertandingan">
+    <iframe width="410" height="224" src="https://www.youtube.com/embed/_YYFlAPL7W4" frameborder="0" allowfullscreen></iframe>
+	</div>
+			<p>
+			Solo - Timnas Indonesia U-23 memastikan diri ke Piala Asia U-23 2024. Kepastian ini didapat usai kemenangan Garuda Muda 2-0 atas Turkmenistan.
+Indonesia vs Turkmenistan tersaji di laga kedua Grup K Kualifikasi Piala Asia U-23. Duel digelar di Stadion Manahan, Solo, Selasa (12/9/2023) malam WIB.
+
+Garuda Muda memimpin 1-0 pada babak pertama. Ivar Jenner membobol gawang Turkmenistan lewat bola tembakan jarak jauh.
+
+Baca artikel sepakbola, "Indonesia Vs Turkmenistan: Garuda Muda Menang 2-0, Lolos ke Piala Asia U-23!"</p>
+<p>Indonesia menggandakan keunggulan lewat gol Pratama Arhan jelang babak kedua berakhir. Garuda Muda menang meyakinkan 2-0 atas Turkmenistan.
+
+Kemenangan ini memastikan Indonesia menjadi jawara Grup K dengan 6 poin. Pasukan Shin Tae-yong menyegel tiket ke Piala Asia U-23 2024.
+
+"Indonesia Vs Turkmenistan: Garuda Muda Menang 2-0, Lolos ke Piala Asia U-23!"</p>
+        </article>
+        <article>
+            <h3>Transfer Pemain</h3>
+            <p>Jude Bellingham: Raja Baru Real Madrid!</p>
+   <div class="container">
+    <img src="beligham.png" alt="Gambar Transfer Pemain">
+    <iframe width="410" height="224" src="https://www.youtube.com/embed/6L6cQaV0Auo" frameborder="0" allowfullscreen></iframe>
+</div>
+			<p> Tekanan demi tekanan telah membuat pemain asal Inggris itu seperti intan yang diasah baik-baik hingga indah kemilau cahayanya.
+
+Bayangkan, dia pindah ke Jerman untuk bermain buat Borussia Dortmund yang mencoba menantang Bayern Munchen dalam perebutan gelar juara Bundesliga. Pemain kelahiran 29 Juni 2003 itu menjadi favorit penggemar dan bahkan kapten cadangan.</p>
+
+<p>Bellingham menjadi starter Timnas Inggris di Piala Dunia 2022 Qatar. Dia kemudian dikontrak dengan harga mahal oleh Real Madrid. Itu terjadi sebelum berumur 20 tahun.
+
+Semua itu sudah dipikulnya dalam tiga tahun terakhir. Tak hanya performanya yang terus meningkat, namun dia juga membuat segalanya terlihat lebih mudah.
+
+Banyak klub besar Eropa yang menginginkan Bellingham di bursa transfer musim panas 2023. Tetapi, Real Madrid yang mendatangkannya dengan harga awal 103 juta euro, lalu naik menjadi €134 juta.</p>
+
+<p>Jude Bellingham mencetak gol pada debutnya dalam kemenangan 2-0 Real Madrid atas Athletic Bilbao dalam laga pertama LaLiga Spanyol 2023/2024. Dia kemudian mencetak dua gol untuk membantu Los Blancos menang 3-1 atas Almeria setelah tertinggal terlebih dahulu.
+
+Gol penentu kemenangan pada menit ke-81 di Celta Vigo dalam pertandingan ketiganya telah membuat para penggemar terpesona kepadanya. Gol berikutnya ke gawang Getafe membuat orang-orang bertanya apakah pemain berusia 20 tahun itu benar-benar manusia biasa.
+
+Jude Bellingham menjadi pemain keempat yang mencetak gol dalam empat pertandingan pertamanya di LaLiga Spanyol pada abad ke-21. Sebelumnya ada Zlatan Ibrahimovic, Cristiano Ronaldo (keduanya pada 2009/2010) dan Cesc Fàbregas (2011/2012).</p>
+        </article>
+    </section>
+
+   <aside>
+    <h2>Tim Sepak Bola Terkenal Saat ini :</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama Tim</th>
+				<th>Nama Pemain</th>
+				<th> Asal Negara</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Real Madrid</td>
+				<td>Vinicius Junior</td>
+				<td>Brazil</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Manchester United</td>
+				<td>Casemiro</td>
+				<td>Brazil</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Barcelona</td>
+				<td>Robert Lewandowski</td>
+				<td>Polandia</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Manchester City</td>
+				<td>Erling Haaland</td>
+				<td>Norwegia</td>
+            </tr>
+        </tbody>
+    </table>
+</aside>
+
+
+    <footer>
+        <h3>Hubungi Kami :</h3>
+        <form>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama"><br><br>
+
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+            <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+            <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+            <label for="laki">Laki-laki</label><br>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+            <label for="perempuan">Perempuan</label><br><br>
+
+            <label for="minat">Minat:</label><br>
+            <input type="checkbox" id="sepakbola" name="minat" value="Sepak Bola">
+            <label for="sepakbola">Sepak Bola</label><br>
+            <input type="checkbox" id="berita" name="minat" value="Berita">
+            <label for="berita">Berita</label><br><br>
+
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+        </form>
+    </footer>
+</body>
+</html>
